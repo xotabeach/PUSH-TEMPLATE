@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Push Уведомление</title>
+    <link rel="stylesheet" href="style_template_push.css">
+</head>
+<body>
+    <div class="notification-container hidden">
+        <div class="notification-header">Время появления ошибки: <span id="error-time"></span></div>
+        <div class="notification-content" id="error-message"></div>
+        <a href="#" class="report-link" onclick="showScenarios()">Рекомендации для исправления</a>
+        <button class="close-button" onclick="closeNotification()">ОК</button>
+        <button class="no-button hidden" onclick="openReportForm()">НЕТ</button>
+        <div class="scenarios-container ">
+            <div class="scenario-content"></div>
+        </div>
+    </div>
+    <script src="script_template_push.js"></script>
+</body>
+</html>

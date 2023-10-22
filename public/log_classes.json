@@ -1,0 +1,184 @@
+
+{
+  "Ошибки в задаче очистки SkuOfferMatchResult": [
+    "An error has occurred in the task of cleaning SkuOfferMatchResult"
+  ],
+  "Ошибки в задаче публикации истекающих сертификатов": [
+    "An error has occurred in the task of publish expiring certificates events",
+    "An exception was thrown during execution of OfferExpirationNotificationJob"
+  ],
+  "Ошибки связанные с базой данных (тип 'Pp2.Models.CsspContext')": [
+    "An exception occurred in the database while saving changes for context type 'Pp2.Models.CsspContext'. Microsoft.Data.SqlClient.SqlException (0x80131904)",
+    "An exception occurred in the database while saving changes for context type 'Pp2.Models.CsspContext'. Microsoft.EntityFrameworkCore.DbUpdateException",
+    "An exception occurred while iterating over the results of a query for context type 'Pp2.Models.CsspContext'. Microsoft.Data.SqlClient.SqlException (0x80131904)",
+    "An exception occurred while iterating over the results of a query for context type 'Pp2.Models.CsspContext'. System.InvalidOperationException",
+    "An exception occurred while iterating over the results of a query for context type 'Pp2.Models.CsspContext'. System.Threading.Tasks.TaskCanceledException"
+  ],
+  "Общие ошибки выполнения задач и команд": [
+    "An error occurred during stat collection",
+    "An error occurred using a transaction",
+    "Exception occurred while processing message",
+    "Exception SendCommand command",
+    "Exception while Executing Pp3.Common.Bl.FileStorage.Services.DiskFileStorageProvider",
+    "Execution error, job",
+    "An unhandled exception has occurred while executing the request",
+    "Connection ID '18374686485577281199', Request ID '80012eb0-0001-ff00-b63f-84710c7967bb'",
+    "Could not execute command",
+    "Could not execute query",
+    "Could not synchronize database state with session",
+    "Unable to execute command",
+    "Unable to process command",
+    "Unable to send command result",
+    "Unable to set command failed"
+  ],
+  "Ошибки связанные с машинно-читаемыми доверенностями пользователей, которые скоро истекут": [
+    "An exception has occurred in the task of verification soon expire user machine readable powers of attorney"
+  ],
+  "Ошибки удаления пользователя по ключу Keycloak": [
+    "Failed executing DbCommand (11ms) [Parameters=[@p0='77a6c046-dfdb-4722-8dac-d04356ef1456', @p1='True'], CommandType='Text', CommandTimeout='600'] DeleteUserByKeycloakId @p0, @p1",
+    "Failed executing DbCommand (5ms) [Parameters=[@p0='fa14e911-12b7-4caa-951e-48c28e5c220f', @p1='True'], CommandType='Text', CommandTimeout='600'] DeleteUserByKeycloakId @p0, @p1"
+  ],
+  "Ошибки запросов к таблицам и базе данных": [
+    "Failed executing DbCommand (11ms) [Parameters=[@p0='77a6c046-dfdb-4722-8dac-d04356ef1456', @p1='True'], CommandType='Text', CommandTimeout='600'] DeleteUserByKeycloakId @p0, @p1",
+    "Failed executing DbCommand (5ms) [Parameters=[@p0='2086295992', @p1='False', @p2='2023-10-11T19",
+    "Failed executing DbCommand (1ms) [Parameters=[@__code_0='RegulatedTimeLimitStoppedDateSetting' (Size = 256) (DbType = AnsiString)], CommandType='Text', CommandTimeout='600'] SELECT TOP(1) [s].[Id], [s].[Code], [s].[Description], [s].[Measure], [s].[Name], [s].[NumberValue], [s].[TextValue] FROM [SettingsRegistry] AS [s] WHERE [s].[Code] = @__code_0",
+    "Failed executing DbCommand (1ms) [Parameters=[@__customerId_0='14793167'], CommandType='Text', CommandTimeout='600'] SELECT TOP(1) [c].[Id], [c].[HierarchyLeft], [c].[HierarchyLevel], [c].[HierarchyRight] FROM [Customer] AS [c] WHERE [c].[Id] = @__customerId_0",
+    "Failed executing DbCommand (1ms) [Parameters=[@__fileStorageId_0='2086296233'], CommandType='Text', CommandTimeout='600'] SELECT TOP(1) [f0].[IsSecure] AS [FileTypeIsSecure], [f].[Id], [f].[OwnerSystemUserId] FROM [FileStorage] AS [f] LEFT JOIN [FileType] AS [f0] ON [f].[FileTypeId] = [f0].[Id] WHERE [f].[Id] = @__fileStorageId_0",
+    "Failed executing DbCommand (1ms) [Parameters=[@__code_0='RegulatedTimeLimitStoppedDateSetting' (Size = 256) (DbType = AnsiString)], CommandType='Text', CommandTimeout='600'] SELECT TOP(1) [s].[Id], [s].[Code], [s].[Description], [s].[Measure], [s].[Name], [s].[NumberValue], [s].[TextValue] FROM [SettingsRegistry] AS [s] WHERE [s].[Code] = @__code_0",
+    "Failed executing DbCommand (2ms) [Parameters=[@p0='00000000-0000-0000-0000-000000000000', @p1=NULL (Size = 4000), @p2='nozertsov@yandex.com' (Size = 4000), @p3='2023-10-09T19",
+    "Failed executing DbCommand (2ms) [Parameters=[@p0='00000000-0000-0000-0000-000000000000', @p1='Pp4.Altertest' (Size = 4000), @p2='nozertsov@yandex.com' (Size = 4000), @p3='2023-10-09T19",
+    "Failed executing DbCommand (2ms) [Parameters=[@p0='1557671541', @p1=NULL (DbType = Int32), @p2=NULL (DbType = Boolean), @p3='2023-10-09T13",
+    "Failed executing DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='600'] SELECT CASE WHEN EXISTS (SELECT 1 FROM [Contract] AS [c] LEFT JOIN [Supplier] AS [s] ON [c].[SupplierId] = [s].[Id] WHERE (((([c].[BuyerId] = 31549791) OR ([s].[CompanyId] = 31549791)) OR ([c].[InitiatedByCompanyId] = 31549791)) AND ([c].[EntityState] = 1)) AND ([c].[EntityId] = 187639586)) THEN CAST(1 AS bit) ELSE CAST(0 AS bit) END",
+    "Failed executing DbCommand (37ms) [Parameters=[@__code_0='RegulatedTimeLimitStoppedDateSetting' (Size = 256) (DbType = AnsiString)], CommandType='Text', CommandTimeout='600'] SELECT TOP(1) [s].[Id], [s].[Code], [s].[Description], [s].[Measure], [s].[Name], [s].[NumberValue], [s].[TextValue] FROM [SettingsRegistry] AS [s] WHERE [s].[Code] = @__code_0",
+    "Failed executing DbCommand (2ms) [Parameters=[@p0='00000000-0000-0000-0000-000000000000', @p1='Pp4.Altertest' (Size = 4000), @p2='nozertsov@yandex.com' (Size = 4000), @p3='2023-10-09T19",
+    "Failed executing DbCommand (11ms) [Parameters=[@p0='77a6c046-dfdb-4722-8dac-d04356ef1456', @p1='True'], CommandType='Text', CommandTimeout='600'] DeleteUserByKeycloakId @p0, @p1",
+    "Failed executing DbCommand (5ms) [Parameters=[@p0='2086295992', @p1='False', @p2='2023-10-11T19",
+    "Failed executing DbCommand (37ms) [Parameters=[@__code_0='RegulatedTimeLimitStoppedDateSetting' (Size = 256) (DbType = AnsiString)], CommandType='Text', CommandTimeout='600'] SELECT TOP(1) [s].[Id], [s].[Code], [s].[Description], [s].[Measure], [s].[Name], [s].[NumberValue], [s].[TextValue] FROM [SettingsRegistry] AS [s] WHERE [s].[Code] = @__code_0"
+  ],
+  "Ошибки обновления данных в базе данных": [
+    "Failed executing DbCommand (4,965ms) [Parameters=[@param_0='True'], CommandType='Text', CommandTimeout='600'] UPDATE a SET [a].[NeedReindex] = @param_0 FROM [Auction] AS [a] WHERE [a].[Id] IN (9542463, 9571036, 9560631, 9579271, 9538510, ...]"
+  ],
+  "Ошибки проверки наличия данных в базе данных": [
+    "Failed executing DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='600'] SELECT CASE WHEN EXISTS (SELECT 1 FROM [Contract] AS [c] LEFT JOIN [Supplier] AS [s] ON [c].[SupplierId] = [s].[Id] WHERE (((([c].[BuyerId] = 31549791) OR ([s].[CompanyId] = 31549791)) OR ([c].[InitiatedByCompanyId] = 31549791)) AND ([c].[EntityState] = 1)) AND ([c].[EntityId] = 187639586)) THEN CAST(1 AS bit) ELSE CAST(0 AS bit) END"
+  ],
+  "Ошибки времени выполнения запросов": [
+    "Execution Timeout Expired. The timeout period elapsed prior to completion of the operation or the server is not responding.",
+    "Execution Timeout Expired. The timeout period elapsed prior to completion of the operation or the server is not responding. Operation cancelled by user.",
+    "Execution Timeout Expired. The timeout period elapsed prior to completion of the operation or the server is not responding. Operation cancelled by user. The statement has been terminated."
+  ],
+  "Ошибки работы с базой данных": [
+    "Failed to execute query batch",
+    "Hibernate.Exceptions.GenericADOException",
+    "The database operation was expected to affect 1 row(s), but actually affected 0 row(s)",
+    "The handle is invalid.",
+    "The wait operation timed out"
+  ],
+  "Ошибки связанные с работой сервисов и интеграцией": [
+    "Failed to invoke hub method 'joinGroup'.",
+    "R- rabbitmq",
+    "S-FAULT rabbitmq"
+  ],
+  "Ошибки связанные с конкретными задачам или операциями": [
+    "Immediate job",
+    "job error",
+    "Pp3.Contracts.Dto.Contract.Action.ContractActionException",
+    "OpComplete"
+  ],
+  "Ошибки связанные с логами и журналированием": [
+    "log"
+  ],
+  "Проблемы с обработкой HTTP-запросов": [
+    "Kaluga workflowId",
+    "System.InvalidOperationException",
+    "Response already has started, cannot send ErrorDetails object"
+  ],
+  "Ошибки при работе с данными": [
+    "Unable to get data",
+    "Unable to parse request query",
+    "Unable to process data"
+  ],
+  "Ошибки связанные с интеграцией": [
+    "Unable to get integration token",
+    "Unable to send company registration request",
+    "Unable to send contract execution",
+    "Unable to send CreateAuction in external system",
+    "Unable to send AuctionFinished OpId",
+    "Unable to SendResult CreateAuction OpId",
+    "Ошибка обращения к api внешней системы ЕГРЮЛ ДИТ. Код ошибки",
+    "Ошибка при обращении к сервису ЕИС для запроса информации о контракте registerNumber 19610152113230000060003"
+  ],
+  "Ошибки связанные с файлами": [
+    "Unable to upload files",
+    "Unable to download file",
+    "Unable to verify and save signature"
+  ],
+  "Необработанные ошибки и исключения": [
+    "Unexpected error occurred",
+    "Unhandled error during Org.Keycloak.Events.Admin.AdminEvent consumer execution",
+    "Unhandled error during Pp3.Common.Events.StateableEntityChangedEvent consumer execution",
+    "Unhandled error during Pp3.Contracts.BusRequests.ItemByKeyRequest consumer execution",
+    "Unhandled error during Pp3.Contracts.Company.Commands.IndexCompanyCommand consumer execution",
+    "Unhandled error during Pp3.Contracts.Dto.Internal.Socket.SocketMessageEnvelope consumer execution",
+    "Unhandled error during Pp3.Contracts.MachineReadablePowerOfAttorney.Requests.MrpaUsedEvent consumer execution",
+    "Unhandled error during Pp3.ExternalServices.Captcha.CaptchaRequest consumer execution",
+    "Unhandled error during Pp3.Integration.Shared.ContractExecutions.Requests.GetEisContractDownloadUrlRequest consumer execution",
+    "Unhandled error during Pp3.PublicApi.Shared.ContractActions.Events.ContractActionAddedEvent consumer execution",
+    "Unhandled error during Pp3.PublicApi.Shared.PurchaseSubscription.Commands.SendNeedInvitationsCommand consumer execution",
+    "Unhandled error during Ru.SupplierPortal.Dto.UserDeleteCertificateEvent consumer execution",
+    "Unhandled error during Ru.SupplierPortal.Dto.UserSuccessLoginEvent consumer execution",
+    "Unhandled exception in action execution was thrown, reverting transaction",
+    "Архив (УАС) не загрузился/не загружался.",
+    "Данные не могут быть обработаны по причине",
+    "Данные не могут быть проимпортированы по причине",
+    "Для команды интеграции невозможно записать текст ошибки в поле LastException",
+    "МЧД",
+    "Не найден КПГЗ с Id",
+    "Не найдена компания с идентификатором",
+    "Не удалось скачать файл из ЕИС по ссылке",
+    "Невозможно запросить данные из УАС для 'Ежедневная выгрузка контрактов и закупок' по причине",
+    "Невозможно отправить результаты команды 'КС'",
+    "Невозможно скачать файл по ссылке",
+    "Необработанная ошибка валидации МЧД попытка добавления дубликата '{MachineReadablePowerOfAttorneyFileStorageId}'"
+  ],
+  "Ошибки авторизации и доступа": [
+    "Ошибка авторизации в интеграционном апи",
+    "Ошибка доступа к сервису капчи"
+  ],
+  "Ошибки запросов данных": [
+    "Ошибка запроса данных из УАС для 'Ежедневная выгрузка контрактов и закупок'",
+    "Ошибка запроса получения информации об операции интеграции"
+  ],
+  "Ошибки обработки событий": [
+    "Ошибка выполнения подписчика на событие завершения применения транзакции <HandleOutbound>b__0",
+    "Ошибка обработки события изменения сброса кеша пользователя bf_test@test.test",
+    "Ошибка обработки события изменения сброса кеша пользователя noreply+20196017@upt24.ru",
+    "Ошибка обработки события измнения сущности Need. Данные события"
+  ],
+  "Ошибки поиска неиндексированных элементов": [
+    "Ошибка при поиске неиндексированных Auction",
+    "Ошибка при поиске неиндексированных Contract",
+    "Ошибка при поиске неиндексированных Manufacturer",
+    "Ошибка при поиске неиндексированных Need",
+    "Ошибка при поиске неиндексированных Offer",
+    "Ошибка при поиске неиндексированных Tender"
+  ],
+  "Ошибки импорта и обработки данных": [
+    "Ошибка при вызове сервиса ЕИС",
+    "Ошибка при запросе списка интеграционного обмена.",
+    "Ошибка при расчёте достижений компании.",
+    "Ошибка при опросе очереди результатов подписания поставщиком в ЕИС",
+    "Ошибка при поиске неиндексированных элементов",
+    "Ошибка при обработке запроса {'SupplierCompanyId'",
+    "Ошибка при обработке события {'ContractActionId'",
+    "Ошибка при обработке события {'Id'",
+    "Ошибка при обработке события {'UserId'",
+    "Ошибка при обращении к сервису ЕИС для проверки токена",
+    "Ошибка получения файлов из каталога nsi ЕИС для импорта справочника 0.",
+    "Ошибка публикации события об окончании срока действия сертификата пользователя",
+    "Произошла ошибка импорта",
+    "Реиндексация компаний завершилась с ошибкой",
+    "Событие обработано с ошибками"
+  ]
+}
+
+
